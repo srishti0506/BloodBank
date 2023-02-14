@@ -1,0 +1,23 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
+body{
+    
+     background-image: url( "./assets/img/36.png"); 
+     margin: 0;
+     height: 100%;
+     padding: 0;
+     font-family: 'Noticia Text', serif;
+     /* background: radial-gradient(circle at 10% 20%, rgb(238, 56, 56) 0%, rgba(206, 21, 0, 0.92) 90.1%); */
+ /* background: radial-gradient(1023px at 3.1% 6.9%, rgb(255, 255, 255) 0%, rgb(205, 40, 83) 74.9%);; */
+ /* background: #a22525; */
+  /* background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);  */
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  /* background: linear-gradient(to right, #feada6 0%, #f5efef 100%); */
+}
+a{
+    text-decoration: none !important;
+}
+.btn-sirii{
+width: 8rem !important;
+}
