@@ -1,0 +1,42 @@
+.welcome {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: rgb(247, 128, 113);
+    background-size: cover;
+    padding: 5%;
+  }
+  .welcomeHeader {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    color: rgb(17, 31, 31);
+  }
+  .welcomeHeader h1 {
+    letter-spacing: 0.3rem;
+  }
+  .welcomeHeader p {
+    margin-top: 0.5rem;
+    letter-spacing: 3px;
+  }
+  .welcomeLink {
+    color: white;
+    background-color: rgb(140, 0, 0);
+    display: inline-block;
+    padding: 0.2rem 2rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    border-radius: 2rem;
+  }
+
+  .welcomeLink:hover{
+    color: black;
+    background-color: aliceblue;
+  }
+  @media (max-width: 700px) {
+    .welcomeHeader h1 {
+      font-size: 1.5rem;
+    }
+    .welcomeHeader p {
+      font-size: 0.8rem;
+    }
+  }
