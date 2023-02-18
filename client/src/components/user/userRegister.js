@@ -40,7 +40,7 @@ const UserRegister = () => {
 
   return (
     <div className="user-register">
-      <h2>DONAR REGISTER</h2>
+      <h2>DONOR REGISTER</h2>
       <form className="userReg-form" onSubmit={(e)=>submituserRegister(e)}>
         <input className="form-control"
           name="userFName"
